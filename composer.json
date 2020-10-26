@@ -1,13 +1,12 @@
 {
     "name": "govee",
     "type": "drupal-module",
-    "description": "GoVee device connector",
-    "keywords": [
-    ],
-    "homepage": "https://www.drupal.org/project/govee",
+    "description": "GoVee API connector",
+    "keywords": ["Drupal", "GoVee", "API"],
+    "homepage": "https://github.com/r0nn1ef/govee",
     "minimum-stability": "dev",
     "support": {
-        "issues": "https://www.drupal.org/project/issues/govee",
-        "source": "http://cgit.drupalcode.org/govee",
-    },
+        "issues": "https://github.com/r0nn1ef/govee",
+        "source": "https://github.com/r0nn1ef/govee"
+    }
 }
