@@ -1,0 +1,14 @@
+govee.govee_settings_form:
+  title: 'GoVee API settings'
+  route_name: govee.govee_settings_form
+  description: 'Configure GoVee API.'
+  parent: system.admin_config_services
+  weight: 99
+
+# GoVee device menu items definition
+entity.govee_device.collection:
+  title: 'GoVee device'
+  route_name: entity.govee_device.collection
+  description: 'List GoVee device (bundles)'
+  parent: system.admin_structure
+  weight: 99

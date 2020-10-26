@@ -1,0 +1,5 @@
+entity.govee_device.add_form:
+  route_name: entity.govee_device.add_form
+  title: 'Add GoVee device'
+  appears_on:
+    - entity.govee_device.collection
