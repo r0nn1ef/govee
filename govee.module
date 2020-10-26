@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains govee.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function govee_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the govee module.
+    case 'help.page.govee':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('GoVee device connector') . '</p>';
+      return $output;
+
+    default:
+  }
+}

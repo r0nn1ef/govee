@@ -1,0 +1,13 @@
+{
+    "name": "govee",
+    "type": "drupal-module",
+    "description": "GoVee device connector",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/govee",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/govee",
+        "source": "http://cgit.drupalcode.org/govee",
+    },
+}

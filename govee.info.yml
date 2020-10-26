@@ -1,0 +1,5 @@
+name: 'GoVee'
+type: module
+description: 'GoVee device connector'
+core: 8.x
+package: 'Custom'
